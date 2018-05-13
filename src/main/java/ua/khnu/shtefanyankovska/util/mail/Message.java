@@ -44,11 +44,11 @@ public class Message {
       props.put("type", "javax.mail.Session");
       props.put("mail.transport.protocol", "smtp");
       props.put("mail.smtp.host", "smtp.gmail.com");
-      props.put("mail.smtp.ssl.trus", "smtp.gmail.com");
+      props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
       props.put("mail.smtp.auth", "true");
       props.put("mail.smtp.port", "587");
-      props.put("mail.smtp.from", "airlines.mailpost@gmail.com");
-      props.put("mail.smtp.password", "gfnhbr0101");
+      props.put("mail.smtp.from", "testing.sendler@gmail.com");
+      props.put("mail.smtp.password", "testingsendler12");
       props.put("mail.smtp.starttls.enable", "true");
       props.put("mail.debug", "true");
       props.put("mail.mime.charset", "UTF-8");

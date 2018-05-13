@@ -358,3 +358,119 @@
 13-05-2018 14:51 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
 13-05-2018 14:51 TRACE -> ?:? - Send redirect to address: welcome.jsp
 
+13-05-2018 14:56 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:56 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:56 TRACE -> ?:? - Created user with name: aaaaa and login aaaaaaa
+13-05-2018 14:56  INFO -> mail.Message:58 - Starting sending message
+13-05-2018 14:56 ERROR -> mail.Message:72 - Exception occurred while sending message Can't send command to SMTP host
+13-05-2018 14:56  INFO -> mail.Message:73 - Message sending finished unsuccessfully
+13-05-2018 14:56 TRACE -> ?:? - User with name: aaaaa and login aaaaaaa was added
+13-05-2018 14:56 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:56 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:02 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:02 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:02 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:02  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:02 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:02 TRACE -> ?:? - Created user with name: qqqqqqqqq and login qqqqqqqqqqqq
+13-05-2018 15:02  INFO -> mail.Message:75 - Starting sending message
+13-05-2018 15:02 ERROR -> mail.Message:91 - Exception occurred while sending message Can't send command to SMTP host
+13-05-2018 15:02  INFO -> mail.Message:92 - Message sending finished unsuccessfully
+13-05-2018 15:02 TRACE -> ?:? - User with name: qqqqqqqqq and login qqqqqqqqqqqq was added
+13-05-2018 15:02 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:02 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:04 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:04 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:06 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:06  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:06 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:06 TRACE -> ?:? - Created user with name: qqqqqqqqqqq and login qqqqqqqqqqqq
+13-05-2018 15:06  INFO -> mail.Message:75 - Starting sending message
+13-05-2018 15:06 ERROR -> mail.Message:91 - Exception occurred while sending message 530 5.7.0 Must issue a STARTTLS command first. r81-v6sm1386596lja.36 - gsmtp
+
+13-05-2018 15:06  INFO -> mail.Message:92 - Message sending finished unsuccessfully
+13-05-2018 15:06 TRACE -> ?:? - User with name: qqqqqqqqqqq and login qqqqqqqqqqqq was added
+13-05-2018 15:06 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:06 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:18 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:18 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:19 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:19  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:19 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:19 TRACE -> ?:? - Created user with name: qqqqqqqqqq and login qqqqqqqqqqqq
+13-05-2018 15:19  INFO -> mail.Message:75 - Starting sending message
+13-05-2018 15:19 ERROR -> mail.Message:91 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:19  INFO -> mail.Message:92 - Message sending finished unsuccessfully
+13-05-2018 15:19 TRACE -> ?:? - User with name: qqqqqqqqqq and login qqqqqqqqqqqq was added
+13-05-2018 15:19 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:19 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:20 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:20 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:20 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:20  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:20 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:20 TRACE -> ?:? - Created user with name: qqqqqqqqqqq and login qqqqqqqq
+13-05-2018 15:20  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:20 ERROR -> mail.Message:73 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:20  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:20 TRACE -> ?:? - User with name: qqqqqqqqqqq and login qqqqqqqq was added
+13-05-2018 15:20 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:20 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:22 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:22 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:22 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:22  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:22 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:22 TRACE -> ?:? - Created user with name: qqqqqqqqq and login qqqqqqqqqqq
+13-05-2018 15:22  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:22 ERROR -> mail.Message:73 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:22  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:22 TRACE -> ?:? - User with name: qqqqqqqqq and login qqqqqqqqqqq was added
+13-05-2018 15:22 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:22 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:24 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:24 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:26 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:26  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:26 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:26 TRACE -> ?:? - Created user with name: qqqqqq and login qqqqqq
+13-05-2018 15:26  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:26 ERROR -> mail.Message:73 - Exception occurred while sending message 530 5.7.0 Must issue a STARTTLS command first. 34-v6sm547396lfy.75 - gsmtp
+
+13-05-2018 15:26  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:26 TRACE -> ?:? - User with name: qqqqqq and login qqqqqq was added
+13-05-2018 15:26 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:26 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:27 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:27 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:28 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:28  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:28 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:28 TRACE -> ?:? - Created user with name: qqqqq and login qqqqqqqqqq
+13-05-2018 15:28  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:28 ERROR -> mail.Message:73 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:28  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:28 TRACE -> ?:? - User with name: qqqqq and login qqqqqqqqqq was added
+13-05-2018 15:28 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:28 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 15:34 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:34 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:35 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:35  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:35 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:35 TRACE -> ?:? - Created user with name: qqqqqqqqqqqqq and login qqqqqqqqqqqqqq
+13-05-2018 15:35  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:35 ERROR -> mail.Message:73 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:35  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:35 TRACE -> ?:? - User with name: qqqqqqqqqqqqq and login qqqqqqqqqqqqqq was added
+13-05-2018 15:35 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:35 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
