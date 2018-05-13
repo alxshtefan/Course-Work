@@ -107,3 +107,24 @@
 09-05-2018 20:15 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
 09-05-2018 20:15 TRACE -> ?:? - Send redirect to address: errors/error.jsp
 
+13-05-2018 13:25 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:25 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:30 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:30 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:33  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:33 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 13:33 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+13-05-2018 13:33 ERROR -> authorization.LoginCommand:40 - Error while extracting user: alxshtefan
+13-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+13-05-2018 13:33 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+13-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:33 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 13:33 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+13-05-2018 13:33 ERROR -> authorization.LoginCommand:40 - Error while extracting user: alxshtefan
+13-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+13-05-2018 13:33 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
