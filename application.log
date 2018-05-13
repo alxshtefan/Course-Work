@@ -128,3 +128,233 @@
 13-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
 13-05-2018 13:33 TRACE -> ?:? - Send redirect to address: errors/error.jsp
 
+13-05-2018 13:38 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:38 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:38  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:38 TRACE -> ?:? - Looking for user with login: sdjfhsjkdhf
+13-05-2018 13:38  WARN -> authorization.LoginCommand:47 - User: null is invalid
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:38 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:38 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:38  WARN -> authorization.LoginCommand:56 - User: admin is invalid
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:38 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:38 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:38 TRACE -> ?:? - User: admin is valid
+13-05-2018 13:38 TRACE -> ?:? - User: admin was added to session
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 13:38  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 13:38  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:38 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 13:38 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 13:38 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 13:38 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 13:38 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 13:38 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 13:38 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 13:38 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 13:38 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 13:38 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 13:38 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 13:38 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 13:38  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 13:38  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 13:38 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 13:38 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 13:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:43  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:43 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:43 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: admin is invalid
+13-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:43 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:43 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: admin is invalid
+13-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:43 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:43 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: admin is invalid
+13-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 13:43 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 13:43 TRACE -> ?:? - User: admin was extracted
+13-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: admin is invalid
+13-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 14:17 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:17 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:17 TRACE -> ?:? - Created user with name: admin and login admin
+13-05-2018 14:17 TRACE -> ?:? - User admin was added
+13-05-2018 14:17 TRACE -> ?:? - User with name: admin and login admin was added
+13-05-2018 14:17 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:17 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:18 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 14:18 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 14:18 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 14:18 TRACE -> ?:? - User: admin was extracted
+13-05-2018 14:18 TRACE -> ?:? - User: admin is valid
+13-05-2018 14:18 TRACE -> ?:? - User: admin was added to session
+13-05-2018 14:18 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+13-05-2018 14:18 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+13-05-2018 14:18 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 14:18 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 14:18  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 14:18  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 14:18 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:18 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:24 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:24 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:25 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:25  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:25 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:25 TRACE -> ?:? - Created user with name: asdasdasdas and login asdasd
+13-05-2018 14:25 TRACE -> ?:? - User with name: asdasdasdas and login asdasd was added
+13-05-2018 14:25 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:25 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:27 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:27 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:28 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:28  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:28 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:28 TRACE -> ?:? - Created user with name: vnbdjfb and login dlkfjgdlkfgj
+13-05-2018 14:28 TRACE -> ?:? - User with name: vnbdjfb and login dlkfjgdlkfgj was added
+13-05-2018 14:28 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:28 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:31 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:31 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:32 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:32  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:32 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:32 TRACE -> ?:? - Created user with name: qqqqqqqq and login qqqqqqqqqq
+13-05-2018 14:32 TRACE -> ?:? - User with name: qqqqqqqq and login qqqqqqqqqq was added
+13-05-2018 14:32 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:32 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:32 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:32 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:33 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:33  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:33 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:33 TRACE -> ?:? - Created user with name: qqqqqqqqq and login qqqqqqqq
+13-05-2018 14:34 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:34 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:35 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:35  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:35 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:35 TRACE -> ?:? - Created user with name: qqqqqqqq and login qqqqqqqqqq
+13-05-2018 14:35 TRACE -> ?:? - User with name: qqqqqqqq and login qqqqqqqqqq was added
+13-05-2018 14:35 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:35 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:36 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:36 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:36 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:36 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:37 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:37  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:37 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:37 TRACE -> ?:? - Created user with name: qqqqqqqqqq and login qqqqqqqqqqqq
+13-05-2018 14:38 TRACE -> ?:? - User with name: qqqqqqqqqq and login qqqqqqqqqqqq was added
+13-05-2018 14:38 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:40 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:40 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:40 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:40  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:40 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:40 TRACE -> ?:? - Created user with name: qqqqqqqq and login qqqqqqqqqq
+13-05-2018 14:41  INFO -> mail.Message:58 - Starting sending message
+13-05-2018 14:41 ERROR -> mail.Message:72 - Exception occurred while sending message Can't send command to SMTP host
+13-05-2018 14:41  INFO -> mail.Message:73 - Message sending finished unsuccessfully
+13-05-2018 14:41 TRACE -> ?:? - User with name: qqqqqqqq and login qqqqqqqqqq was added
+13-05-2018 14:41 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:41 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:43 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:43  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:43 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:43 TRACE -> ?:? - Created user with name: qqqqq and login qqqq
+13-05-2018 14:44  INFO -> mail.Message:58 - Starting sending message
+13-05-2018 14:47 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:47 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:48 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:48  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:48 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:48 TRACE -> ?:? - Created user with name: qqqqqqqqq and login qqqqqqqqqq
+13-05-2018 14:48  INFO -> mail.Message:58 - Starting sending message
+13-05-2018 14:49 ERROR -> mail.Message:72 - Exception occurred while sending message 530 5.7.0 Must issue a STARTTLS command first. e7-v6sm1404231ljj.95 - gsmtp
+
+13-05-2018 14:49  INFO -> mail.Message:73 - Message sending finished unsuccessfully
+13-05-2018 14:49 TRACE -> ?:? - User with name: qqqqqqqqq and login qqqqqqqqqq was added
+13-05-2018 14:49 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:49 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 14:51 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:51 TRACE -> ?:? - EncodingFilter init
+13-05-2018 14:51 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 14:51  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 14:51 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 14:51 TRACE -> ?:? - Created user with name: qqqqqqqqqq and login qqqqqqqq
+13-05-2018 14:51  INFO -> mail.Message:58 - Starting sending message
+13-05-2018 14:51 ERROR -> mail.Message:72 - Exception occurred while sending message Can't send command to SMTP host
+13-05-2018 14:51  INFO -> mail.Message:73 - Message sending finished unsuccessfully
+13-05-2018 14:51 TRACE -> ?:? - User with name: qqqqqqqqqq and login qqqqqqqq was added
+13-05-2018 14:51 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 14:51 TRACE -> ?:? - Send redirect to address: welcome.jsp
+

@@ -37,24 +37,30 @@ public class RegistrCommand extends Command {
 
         LOG.trace("Created user with name: " + user.getName() + " and login " + user);
 
-        try {
-            UserDAO userDAO = new UserDAO();
-            userDAO.create(user);
-        } catch (MyException e) {
-            LOG.warn("Error while adding user: " + user);
-            request.getSession().setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
-            return PathToGo.ERROR_PAGE;
-        }
+//        try {
+//            UserDAO userDAO = new UserDAO();
+//            userDAO.create(user);
+//        } catch (MyException e) {
+//            LOG.warn("Error while adding user: " + user);
+//            request.getSession().setAttribute("error",
+//                    "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
+//            return PathToGo.ERROR_PAGE;
+//        }
 
-        Thread t = new Thread(() -> {
-            try {
-                Message.sendTextMessage(user.getEmail(), CreateMailContent.createCongratContent(user.getName()));
-            } catch (NamingException e) {
-                // noting to do
-            }
-        });
-        t.start();
+//        Thread t = new Thread(() -> {
+//            try {
+//                Message.sendTextMessage(user.getEmail(), CreateMailContent.createCongratContent(user.getName()));
+//            } catch (NamingException e) {
+//                // noting to do
+//            }
+//        });
+//        t.start();
+
+      try {
+        Message.sendTextMessage(user.getEmail(), CreateMailContent.createCongratContent(user.getName()));
+      } catch (NamingException e) {
+        // noting to do
+      }
 
         LOG.trace("User with name: " + user.getName() + " and login " + user + " was added");
 

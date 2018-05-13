@@ -2,6 +2,8 @@ package ua.khnu.shtefanyankovska.util.path;
 
 public class PathToGo {
 
+    public static final String STAY_ON_THIS_PAGE = "";
+
     public static final String INDEX_PAGE = "index.jsp";
     public static final String WELCOME_PAGE = "welcome.jsp";
 

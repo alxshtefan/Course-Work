@@ -10,6 +10,8 @@ CREATE TABLE users (
     status boolean
 );
 
+INSERT INTO users VALUES (DEFAULT, 'admin', 'admin', 'admin', 'admin', 'admin', 1);
+
 CREATE TABLE tests (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	title VARCHAR(30) NOT NULL UNIQUE,
@@ -19,21 +21,15 @@ CREATE TABLE tests (
 	subject VARCHAR(20)
 );
 
-INSERT INTO tests VALUE (1, 'stub', 1, 1, 1, 'stub');
-
 CREATE TABLE questions (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	quest VARCHAR(150) NOT NULL
 );
 
-INSERT INTO questions VALUE (1, 'stub');
-
 CREATE TABLE answers (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	answer VARCHAR(75) NOT NULL
 );
-
-INSERT INTO answers VALUE (1, 'stub');
 
 CREATE TABLE results (
 	user_id INT,

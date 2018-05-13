@@ -1,6 +1,7 @@
 package ua.khnu.shtefanyankovska.db;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 
 import javax.naming.Context;
@@ -25,9 +26,8 @@ public class DBManager {
 	}
 
 	public static Connection getConnection() throws NamingException, SQLException {
-		Context envCtx = (Context) (new InitialContext().lookup("java:comp/env"));
-		DataSource ds = (DataSource) envCtx.lookup("jdbc/coursework");
-		return ds.getConnection();
+		return DriverManager.getConnection("jdbc:mysql://localhost:3306/coursework?" +
+			"user=root&password=root&&useSSL=false");
 	}
 
 }

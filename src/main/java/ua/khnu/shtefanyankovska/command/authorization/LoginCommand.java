@@ -39,23 +39,24 @@ public class LoginCommand extends Command {
         } catch (MyException e) {
             LOG.error("Error while extracting user: " + login);
             session.setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
+              "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
             return PathToGo.ERROR_PAGE;
         }
 
         if (user == null) {
             LOG.warn("User: " + user + " is invalid");
-            session.setAttribute("error",
-                    "Пользователя с логином " + login + " не существует!<br>Проверьте правильность введенных данных!");
-            return PathToGo.ERROR_PAGE;
+            session.setAttribute("invalidLogin", true);
+            return PathToGo.STAY_ON_THIS_PAGE;
         } else if (!user.isCanWork()) {
             LOG.warn("User: " + user + " is invalid");
-            session.setAttribute("error", "Пользователь " + user + " заблокирован!");
-            return PathToGo.ERROR_PAGE;
+            session.setAttribute("blocked", true);
+            session.setAttribute("login", user.getLogin());
+            return PathToGo.STAY_ON_THIS_PAGE;
         } else if (!user.isValid(password)) {
             LOG.warn("User: " + user + " is invalid");
-            session.setAttribute("error", "Вы ввели не правильный пароль!<br>Проверьте правильность введенных данных!");
-            return PathToGo.ERROR_PAGE;
+            session.setAttribute("invalidPassword", true);
+            session.setAttribute("login", user.getLogin());
+            return PathToGo.STAY_ON_THIS_PAGE;
         } else {
             LOG.trace("User: " + user + " is valid");
 
