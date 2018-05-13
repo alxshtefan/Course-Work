@@ -23,21 +23,19 @@ CREATE TABLE tests (
 
 CREATE TABLE questions (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	quest VARCHAR(150) NOT NULL
+	quest VARCHAR(1500) NOT NULL
 );
 
 CREATE TABLE answers (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	answer VARCHAR(75) NOT NULL
+	answer VARCHAR(500) NOT NULL
 );
 
 CREATE TABLE results (
 	user_id INT,
-    FOREIGN KEY (user_id) REFERENCES users(id)
-	ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id),
 	test_id INT,
-    FOREIGN KEY (test_id) REFERENCES tests(id)
-	ON DELETE CASCADE,
+    FOREIGN KEY (test_id) REFERENCES tests(id),
 	result DOUBLE NOT NULL,
 	date VARCHAR(11) NOT NULL
 );

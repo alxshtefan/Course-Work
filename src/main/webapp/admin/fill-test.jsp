@@ -42,11 +42,11 @@
 				<input type="hidden"name="command" value="addTest" /> 
 				<c:forEach begin="1" end="${sessionScope.test.getqNumber()}" var="loop">
 					<p>Вопрос №${loop } <br><hr>
-					<input class="inQuest" type="text" name="question${loop }" autocomplete="off"  maxlength="150" placeholder="Вопрос №${loop }" required></p><hr>
-					<input name="ranswer${loop}" value="1" type="checkbox"><input class="inQuest" type="text" maxlength="75" autocomplete="off" name="answer${loop}text1" required><br>
-					<input name="ranswer${loop}" value="2" type="checkbox"><input class="inQuest" type="text" maxlength="75" autocomplete="off" name="answer${loop}text2" required><br>
-					<input name="ranswer${loop}" value="3" type="checkbox"><input class="inQuest" type="text" maxlength="75" autocomplete="off" name="answer${loop}text3" required><br>
-					<input name="ranswer${loop}" value="4" type="checkbox"><input class="inQuest" type="text" maxlength="75" autocomplete="off" name="answer${loop}text4" required><br><br>
+					<input class="inQuest" type="text" name="question${loop }" autocomplete="off"  maxlength="1500" placeholder="Вопрос №${loop }" required></p><hr>
+					<input name="ranswer${loop}" value="1" type="checkbox"><input class="inQuest" type="text" maxlength="1000" autocomplete="off" name="answer${loop}text1" required><br>
+					<input name="ranswer${loop}" value="2" type="checkbox"><input class="inQuest" type="text" maxlength="1000" autocomplete="off" name="answer${loop}text2" required><br>
+					<input name="ranswer${loop}" value="3" type="checkbox"><input class="inQuest" type="text" maxlength="1000" autocomplete="off" name="answer${loop}text3" required><br>
+					<input name="ranswer${loop}" value="4" type="checkbox"><input class="inQuest" type="text" maxlength="1000" autocomplete="off" name="answer${loop}text4" required><br><br>
 				</c:forEach>
 				<br><hr>
 				<input type="submit" value="Завершить создание теста">

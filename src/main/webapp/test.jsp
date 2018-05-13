@@ -52,10 +52,10 @@
 		<div style="text-align: center; font-size: 120%;">
 			<p>Название теста: ${test.getTitle() }</p>
 			<p>Тема теста: ${test.getSubject() }</p>	
-			<form id="submitTest" action="Controller" method="POST" style="text-align: left; width: 30%; padding-left: 40%">
+			<form id="submitTest" action="Controller" method="POST" style="text-align: left; width: 30%; padding-left: 30%">
 				<input type="hidden" value="endTest" name="command">
 				<c:forEach items="${test.getQuestions() }" var="question" varStatus="qloop">
-					${qloop.index + 1 }) ${question.getQuest() }<br>
+					<div style="width: 600px">${qloop.index + 1 }) ${question.getQuest() }</div><br>
 					<c:forEach begin="1" end="${question.getAnswers().size() }" var="answer" >
 						<input  type="checkbox" name="ranswer${qloop.index + 1}" value="${answer }"> ${question.getAnswers().get(answer-1).getAnswer() }<br>
 					</c:forEach>
