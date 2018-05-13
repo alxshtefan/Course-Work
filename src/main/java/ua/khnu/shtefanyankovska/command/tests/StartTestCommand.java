@@ -15,58 +15,47 @@ import java.util.List;
 
 public class StartTestCommand extends Command {
 
-    private static final Logger LOG = Logger.getLogger(StartTestCommand.class.getName());
+  private static final Logger LOG = Logger.getLogger(StartTestCommand.class.getName());
 
-    @Override
-    public String execute(HttpServletRequest request, HttpServletResponse response, String type) {
-        HttpSession session = request.getSession(false);
-        String title = request.getParameter("title");
+  @Override
+  public String execute(HttpServletRequest request, HttpServletResponse response, String type) {
+    HttpSession session = request.getSession(false);
+    int id = Integer.parseInt(request.getParameter("title").toCharArray()[request.getParameter("title").length()-1]+"");
 
-        try {
-            System.out.println("TITLE > " + title);
-            String utf8String = new String(title.getBytes(), "UTF-8");
-            System.out.println("TITLE UTF-8 > " + utf8String);
-            String ansiString = new String(utf8String.getBytes("UTF-8"), "windows-1251");
-            System.out.println("TITLE ANSI > " + ansiString);
-        } catch (Exception e) {
-
+    TestDAO testDAO = new TestDAO();
+    Test test = null;
+    try {
+      List<Test> tests = testDAO.findAll();
+      for (Test t : tests) {
+        if (id == t.getId()) {
+          LOG.trace("There is test with id: " + id);
+          test = t;
+          test.setId(id);
+          break;
         }
-
-        TestDAO testDAO = new TestDAO();
-        Test test = new Test();
-        try {
-            List<Test> tests = testDAO.findAll();
-            test.setTitle(title);
-            if (tests.contains(test)) {
-                LOG.trace("There is test with title: " + title);
-                for (Test t : tests) {
-                    if (t.equals(test)) {
-                        test = t;
-                        break;
-                    }
-                }
-            } else {
-                LOG.trace("There is no test with title: " + title);
-                return PathToGo.TESTS_PAGE;
-            }
-        } catch (MyException e) {
-            LOG.error("Error while getting test: " + e.getMessage());
-            session.setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Похоже, что выбранный вами тест более не существует!");
-            return PathToGo.ERROR_PAGE;
-        }
-
-        LogicDAO logicDAO = new LogicDAO();
-        try {
-            test = logicDAO.getTest(test);
-            request.setAttribute("test", test);
-        } catch (MyException e) {
-            LOG.error("Error while getting test: " + e.getMessage());
-            session.setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Похоже, что выбранный вами тест более не существует!");
-            return PathToGo.ERROR_PAGE;
-        }
-
-        return PathToGo.TEST;
+      }
+      if (test == null) {
+        LOG.trace("There is no test with id: " + id);
+        return PathToGo.TESTS_PAGE;
+      }
+    } catch (MyException e) {
+      LOG.error("Error while getting test: " + e.getMessage());
+      session.setAttribute("error",
+        "Произошла ошибка во время обработки данных!<br>Похоже, что выбранный вами тест более не существует!");
+      return PathToGo.ERROR_PAGE;
     }
+
+    LogicDAO logicDAO = new LogicDAO();
+    try {
+      test = logicDAO.getTest(test);
+      request.setAttribute("test", test);
+    } catch (MyException e) {
+      LOG.error("Error while getting test: " + e.getMessage());
+      session.setAttribute("error",
+        "Произошла ошибка во время обработки данных!<br>Похоже, что выбранный вами тест более не существует!");
+      return PathToGo.ERROR_PAGE;
+    }
+
+    return PathToGo.TEST;
+  }
 }

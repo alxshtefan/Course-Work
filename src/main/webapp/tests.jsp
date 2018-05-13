@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=CP1251"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
@@ -9,7 +9,7 @@
 <html>
 
 	<head>
-		<title>Тестирование</title>
+		<title>РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ</title>
 		<link rel="icon" href="images/logo.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 		<link rel="stylesheet" type="text/css" href="css/secondaryStyle.css">
@@ -88,24 +88,24 @@
 				<c:when test="${param.type != null}">
 					<c:choose>
 						<c:when test="${param.type == 'english'}">
-							Тесты по английскому
+							РўРµСЃС‚С‹ РїРѕ Р°РЅРіР»РёР№СЃРєРѕРјСѓ
 						</c:when>
 						<c:when test="${param.type == 'germany'}">
-							Тесты по немецкому
+							РўРµСЃС‚С‹ РїРѕ РЅРµРјРµС†РєРѕРјСѓ
 						</c:when>
 						<c:when test="${param.type == 'spanish'}">
-							Тесты по испанскому
+							РўРµСЃС‚С‹ РїРѕ РёСЃРїР°РЅСЃРєРѕРјСѓ
 						</c:when>
 						<c:when test="${param.type == 'french'}">
-							Тесты по французкому
+							РўРµСЃС‚С‹ РїРѕ С„СЂР°РЅС†СѓР·РєРѕРјСѓ
 						</c:when>
 						<c:otherwise>
-							Все тесты
+							Р’СЃРµ С‚РµСЃС‚С‹
 						</c:otherwise>
 					</c:choose>
 				</c:when>
 				<c:otherwise>
-					Все тесты
+					Р’СЃРµ С‚РµСЃС‚С‹
 				</c:otherwise>
 			</c:choose>
 		</div>
@@ -114,33 +114,33 @@
 		<center>
 			<div class="chooseSubject">
 				<select id="selectBox" onchange="changeFunc();">
-					<option value="" disabled selected>Выберите тему тестов</option>
-					<option value="">Все темы</option>
-						<option value="english">Английский</option>
-						<option value="germany">Немецкий</option>
-						<option value="spanish">Испанский</option>
-						<option value="french">Французкий</option>
+					<option value="" disabled selected>Р’С‹Р±РµСЂРёС‚Рµ С‚РµРјСѓ С‚РµСЃС‚РѕРІ</option>
+					<option value="">Р’СЃРµ С‚РµРјС‹</option>
+						<option value="english">РђРЅРіР»РёР№СЃРєРёР№</option>
+						<option value="germany">РќРµРјРµС†РєРёР№</option>
+						<option value="spanish">РСЃРїР°РЅСЃРєРёР№</option>
+						<option value="french">Р¤СЂР°РЅС†СѓР·РєРёР№</option>
 				</select>
 			</div>
 			<c:choose>
 				<c:when test="${tests.isEmpty() }">
-					<m style="font-size: 20">В данный момент тестов нет.<br>Попробуйте зайти позже.</m>
+					<m style="font-size: 20">Р’ РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ С‚РµСЃС‚РѕРІ РЅРµС‚.<br>РџРѕРїСЂРѕР±СѓР№С‚Рµ Р·Р°Р№С‚Рё РїРѕР·Р¶Рµ.</m>
 				</c:when>
 				<c:otherwise>
 					<table id="myTable" style="width: 65%; border-collapse: collapse; border: 2px solid #008B8B;">
 						<tr style="border: 2px solid #008B8B;">
-							<th class="thtr" onclick="sortTable(0)">Название теста	<img alt="updown" src="images/sort.png" width="12"></th>
-		    				<th class="thtr" onclick="sortTable(1)">Сложность	<img alt="updown" src="images/sort.png" width="12"></th>
-		    				<th class="thtr" onclick="sortTable(2)">Количество вопросов	<img alt="updown" src="images/sort.png" width="12"></th>
-		    				<th class="thtr" onclick="sortTable(3)">Время (мин)	<img alt="updown" src="images/sort.png" width="12"></th>
+							<th class="thtr" onclick="sortTable(0)">РќР°Р·РІР°РЅРёРµ С‚РµСЃС‚Р°	<img alt="updown" src="images/sort.png" width="12"></th>
+		    				<th class="thtr" onclick="sortTable(1)">РЎР»РѕР¶РЅРѕСЃС‚СЊ	<img alt="updown" src="images/sort.png" width="12"></th>
+		    				<th class="thtr" onclick="sortTable(2)">РљРѕР»РёС‡РµСЃС‚РІРѕ РІРѕРїСЂРѕСЃРѕРІ	<img alt="updown" src="images/sort.png" width="12"></th>
+		    				<th class="thtr" onclick="sortTable(3)">Р’СЂРµРјСЏ (РјРёРЅ)	<img alt="updown" src="images/sort.png" width="12"></th>
 						</tr>
 						
 							<c:forEach items="${tests}" var="test" varStatus="loop">
-								<form ction="Controller" mehod="POST" id="startTest">
+								<form action="Controller" mehod="POST" id="startTest">
 									<input type="hidden" name="command" value="startTest" />
 									<tr class="thtr">
 										<td style="width: 300px">
-											<a href="?command=startTest&title=${test.getTitle() }">${test.getTitle() }</a>
+											<a href="?command=startTest&title=${test.getTitle() }${test.getId() }">${test.getTitle() }</a>
 										</td>
 									    <td style="width: 100px; text-align: center">
 									    	<c:forEach begin="1" end="${test.getDifficult() }" var="star">
@@ -158,7 +158,7 @@
 			</c:choose>
 			<br>
 			<br><br>
-			Что бы после прохождения теста, посмотреть правильные ответы<br>вы должны набрать более 60 баллов!
+			Р§С‚Рѕ Р±С‹ РїРѕСЃР»Рµ РїСЂРѕС…РѕР¶РґРµРЅРёСЏ С‚РµСЃС‚Р°, РїРѕСЃРјРѕС‚СЂРµС‚СЊ РїСЂР°РІРёР»СЊРЅС‹Рµ РѕС‚РІРµС‚С‹<br>РІС‹ РґРѕР»Р¶РЅС‹ РЅР°Р±СЂР°С‚СЊ Р±РѕР»РµРµ 60 Р±Р°Р»Р»РѕРІ!
 		</center>
 		<!--============================================================================= -->
 
