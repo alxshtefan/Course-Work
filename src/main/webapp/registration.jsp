@@ -83,7 +83,7 @@
 		<table class="footer">
 			<tr>
 				<td class="cr">
-					author: Aleksey Shtefan
+					author: Aleksey Shtefan & Ekaterina Yankovskaya
 				</td>
 				<td width="5%" class="entrancePic">
 					<form method="POST">
