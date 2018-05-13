@@ -106,9 +106,15 @@
 			  <form action="Controller" method="POST">
 			  	<input type="hidden"name="command" value="addTest" /> 
 			  	<p>Название теста: <input type="text" name="title"  maxlength="30" placeholder="название" pattern="[A-Za-zА-Яа-я0-9 ]+" autocomplete="off" required></p>
-			  	<p>Тема теста: <input type="text" name="subject"  maxlength="20" placeholder="тема" pattern="[a-zа-я ]+" autocomplete="off" required></p>	  
+			  	<p>Тема теста:
+						<select name="subject" required>
+							<option>Английский</option>
+							<option>Немецкий</option>
+							<option>Испанский</option>
+							<option>Французкий</option>
+						</select>
 			  	<p>Сложность теста: <input type="text" name="difficult" placeholder="2" pattern="[1-5]" title="from 1 up to 5" autocomplete="off" required></p>
-			  	<p>Время на прохождение теста: <input type="text" name="time" placeholder="180" pattern="[0-9]+" title="in seconds" autocomplete="off" required></p>
+			  	<p>Время на прохождение теста: <input type="text" name="time" placeholder="180" pattern="[0-9]+" title="in minutes" autocomplete="off" required></p>
 			  	<p>Количество вопросов  в тесте: <input type="text" name="numOfQuest" placeholder="10" pattern="[0-9]+" title="just numbers" autocomplete="off" required></p>
 			  	<input type="submit" value="Перейти к заполнению вопросов">
 			  </form>

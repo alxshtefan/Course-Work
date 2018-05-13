@@ -22,6 +22,16 @@ public class StartTestCommand extends Command {
         HttpSession session = request.getSession(false);
         String title = request.getParameter("title");
 
+        try {
+            System.out.println("TITLE > " + title);
+            String utf8String = new String(title.getBytes(), "UTF-8");
+            System.out.println("TITLE UTF-8 > " + utf8String);
+            String ansiString = new String(utf8String.getBytes("UTF-8"), "windows-1251");
+            System.out.println("TITLE ANSI > " + ansiString);
+        } catch (Exception e) {
+
+        }
+
         TestDAO testDAO = new TestDAO();
         Test test = new Test();
         try {

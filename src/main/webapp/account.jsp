@@ -85,8 +85,8 @@
 
 		<!-- ================================= ACCOUNT ================================== -->
 		<div class="advertLogo">
-			Привет, <bold>"${sessionScope.user }"</bold>!<br>
-			Это твой аккаунт и твоя статистика.<hr>
+			Привет, <b>${sessionScope.user.getName() }</b>!<br>
+			Это ваш аккаунт и статистика.<hr>
 		</div>
 		<center>
 			<c:choose>

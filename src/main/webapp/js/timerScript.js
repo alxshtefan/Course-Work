@@ -1,7 +1,7 @@
 function startTimer(seconds) {
 	// Set the date we're counting down to
 	var countDownDate = new Date().getTime();
-	countDownDate += seconds * 1000;
+	countDownDate += seconds * 1000 * 60;
 
 	// Update the count down every 1 second
 	var x = setInterval(function() {

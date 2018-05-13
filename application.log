@@ -474,3 +474,420 @@
 13-05-2018 15:35 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
 13-05-2018 15:35 TRACE -> ?:? - Send redirect to address: welcome.jsp
 
+13-05-2018 15:46 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:46 TRACE -> ?:? - EncodingFilter init
+13-05-2018 15:48 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 15:48  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 15:48 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 15:48 TRACE -> ?:? - Created user with name: qweqwe and login qweqweqw
+13-05-2018 15:48  INFO -> mail.Message:59 - Starting sending message
+13-05-2018 15:48 ERROR -> mail.Message:73 - Exception occurred while sending message Could not convert socket to TLS
+13-05-2018 15:48  INFO -> mail.Message:74 - Message sending finished unsuccessfully
+13-05-2018 15:48 TRACE -> ?:? - User with name: qweqwe and login qweqweqw was added
+13-05-2018 15:48 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 15:48 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 17:03 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:03 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:04 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 17:04  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:04 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 17:04 TRACE -> ?:? - Created user with name: qqqqqq and login qqqqqq
+13-05-2018 17:04  INFO -> mail.Message:60 - Starting sending message
+13-05-2018 17:04  INFO -> mail.Message:83 - Message sending finished successfully
+13-05-2018 17:04 TRACE -> ?:? - User with name: qqqqqq and login qqqqqq was added
+13-05-2018 17:04 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 17:04 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 17:08 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:08 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:09 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:09 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:09 DEBUG -> controller.Controller:32 - Looking for command name: registration
+13-05-2018 17:09  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:09 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+13-05-2018 17:09 TRACE -> ?:? - Created user with name: Алексей and login alxshtefan
+13-05-2018 17:09 TRACE -> ?:? - User alxshtefan was added
+13-05-2018 17:09 TRACE -> ?:? - User with name: Алексей and login alxshtefan was added
+13-05-2018 17:09 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 17:09 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 17:09  INFO -> mail.Message:60 - Starting sending message
+13-05-2018 17:09  INFO -> mail.Message:83 - Message sending finished successfully
+13-05-2018 17:10 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:10 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:10 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:10 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:10  WARN -> authorization.LoginCommand:56 - User: alxshtefan is invalid
+13-05-2018 17:10 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 17:10 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 17:10 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:10 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:10 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:10 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:10 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:10 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:10 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:10 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:10 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+13-05-2018 17:10 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+13-05-2018 17:10 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+13-05-2018 17:10 TRACE -> ?:? - Forward to address: account.jsp
+
+13-05-2018 17:10 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+13-05-2018 17:10 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+13-05-2018 17:10 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+13-05-2018 17:10 TRACE -> ?:? - Forward to address: account.jsp
+
+13-05-2018 17:11 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+13-05-2018 17:11 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+13-05-2018 17:11 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+13-05-2018 17:11 TRACE -> ?:? - Forward to address: account.jsp
+
+13-05-2018 17:11 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+13-05-2018 17:11 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+13-05-2018 17:11 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+13-05-2018 17:11 TRACE -> ?:? - Forward to address: account.jsp
+
+13-05-2018 17:11 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:11 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:11 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:12 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 17:12 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 17:12  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 17:12  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 17:12 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 17:12 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 17:12 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:12 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:12 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 17:12 TRACE -> ?:? - User: admin was extracted
+13-05-2018 17:12 TRACE -> ?:? - User: admin is valid
+13-05-2018 17:12 TRACE -> ?:? - User: admin was added to session
+13-05-2018 17:12 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+13-05-2018 17:12 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+13-05-2018 17:28 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+13-05-2018 17:28 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+13-05-2018 17:28  INFO -> admin.AddTestCommand:27 - Structure of test was extracted
+13-05-2018 17:28 DEBUG -> controller.Controller:38 - Path to go: admin/fill-test.jsp
+13-05-2018 17:28 TRACE -> ?:? - Send redirect to address: admin/fill-test.jsp
+
+13-05-2018 17:29 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+13-05-2018 17:29 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+13-05-2018 17:29  INFO -> admin.AddTestCommand:58 - Test was extracted from request
+13-05-2018 17:29  INFO -> db.TestDAO:130 - ID number was added to test
+13-05-2018 17:29 TRACE -> ?:? - Test Английский язык 2016 was added
+13-05-2018 17:29  INFO -> db.QuestionDAO:43 - All id numbers were added to all questions
+13-05-2018 17:29 TRACE -> ?:? - All questions were added
+13-05-2018 17:29  INFO -> db.AnswerDAO:43 - All id numbers were added to all answers
+13-05-2018 17:29  INFO -> admin.AddTestCommand:63 - All values of the test were added to the table
+13-05-2018 17:29  INFO -> admin.AddTestCommand:64 - All relations of the test were added to the table
+13-05-2018 17:29 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+13-05-2018 17:29 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+13-05-2018 17:40 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 17:40 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 17:40  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 17:40  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 17:40 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 17:40 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 17:40 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:40 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:40 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:40 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:40 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:40 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:40 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:40 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:40 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:40 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:40 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:40 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:40 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:40 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:40 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:40 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:40 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:40 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:40 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 17:40 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 17:40 TRACE -> ?:? - There is no test with title: ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº 2016
+13-05-2018 17:40 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:40 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:41 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:41 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:41 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:41 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:41 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:41 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:41 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:41 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:41 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:41 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:42 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:42 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:42 TRACE -> ?:? - Will look for tests with subject: математика
+13-05-2018 17:42 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:42 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:42 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:42 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:42 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:42 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:42 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:42 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:45 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:45  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:45 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:45 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:46 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:46 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:46 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:46 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:46 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:46 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:46 TRACE -> ?:? - Will look for tests with subject: математика
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:46 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:46 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:46 TRACE -> ?:? - Will look for tests with subject: математика
+13-05-2018 17:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: математика
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: английский
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:48 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:48 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:48 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:48 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:48 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:50 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:50 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Французкий
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:51 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:51 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:51  WARN -> authorization.LoginCommand:56 - User: alxshtefan is invalid
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: 
+13-05-2018 17:51 TRACE -> ?:? - Send redirect to address: 
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:51 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:51 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:51 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:51 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:51 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Испанский
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Немецкий
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Испанский
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Французкий
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:51 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:51 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 17:51 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 17:51 TRACE -> ?:? - There is no test with title: ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº 2016
+13-05-2018 17:51 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:51 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:55 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:55 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:55 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:55  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:55 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:55 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:55 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:55 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:55 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:55 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:55 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:55 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:55 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:55 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:55 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:55 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:55 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:55 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:55 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:55 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:55 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:55 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 17:55 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 17:55 TRACE -> ?:? - There is no test with title: ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº 2016
+13-05-2018 17:55 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:55 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:57 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:57 TRACE -> ?:? - EncodingFilter init
+13-05-2018 17:58 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 17:58  INFO -> command.CommandContainer:53 - CommandContainer was filled
+13-05-2018 17:58 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 17:58 TRACE -> ?:? - There is no test with title: ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº 2016
+13-05-2018 17:58 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:58 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:58 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 17:58 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 17:58 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 17:58 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 17:58 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 17:58 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 17:58 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 17:58 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 17:58 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:58 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:58 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:58 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:58 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:58 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 17:58 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 17:58 TRACE -> ?:? - There is no test with title: ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·ÑÐº 2016
+13-05-2018 17:58 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:58 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:59 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:59 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:59 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:59 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:59 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:59 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:59 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:59 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:59 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:59 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 17:59 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 17:59 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 17:59 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 17:59 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 17:59 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 18:00 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 18:00 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 18:00 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 18:00 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 18:00 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 18:03 TRACE -> ?:? - EncodingFilter init
+13-05-2018 18:03 TRACE -> ?:? - EncodingFilter init
