@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+    <display-name>Course Work</display-name>
+
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>ua.khnu.shtefanyankovska.controller.Controller
+        </servlet-class>
+    </servlet>
+    <welcome-file-list>
+        <welcome-file>welcome.jsp</welcome-file>
+    </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errors/404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/errors/500.jsp</location>
+    </error-page>
+    <filter>
+        <filter-name>EncodingFilter</filter-name> <!-- mandatory -->
+        <filter-class>ua.khnu.shtefanyankovska.filter.EncodingFilter</filter-class> <!-- mandatory -->
+        <init-param> <!-- optional -->
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name> <!-- mandatory -->
+        <url-pattern>/*</url-pattern> <!-- either url-pattern or servlet-name is mandatory -->
+        <servlet-name>Controller</servlet-name>
+    </filter-mapping>
+    <description>MySQL</description>
+    <resource-ref>
+        <description>MySQL DB Connection Pool</description>
+        <res-ref-name>jdbc/coursework</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+    <description>JavaMail</description>
+    <resource-ref>
+        <description>Resources to send email</description>
+        <res-ref-name>mail/coursework</res-ref-name>
+        <res-type>javax.mail.Session</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+</web-app>

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	align-content: center;
+	text-align: center;
+}
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+}
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+.tabcontent {
+	width: 30%;
+	text-align: left;
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+	animation: fadeEffect 1s;
+}
+
+@
+keyframes fadeEffect {
+	from {opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+
+}
+.inQuest {
+	width: 500px;
+}
+
+.errorText {
+	color: red;
+}
+
+.attention_symbol_tab {
+	position: absolute;
+	width: 2%;
+	top: 12%;
+}
+
+my {
+	color: green;
+	font-size: 200%;
+	width: 30%;
+	top: 11.2%;
+	left: 70%;
+	position: absolute;
+	opacity: 1;
+	transition: opacity 500ms;
+}
+
+my.waa {
+	opacity: 0;
+}

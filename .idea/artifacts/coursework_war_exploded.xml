@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="coursework:war exploded">
+    <output-path>$PROJECT_DIR$/target/coursework</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="coursework" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
+          <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.3.0" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.9" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/coursework/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="coursework/web/Web" />
+    </root>
+  </artifact>
+</component>

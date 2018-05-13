@@ -1,0 +1,109 @@
+09-05-2018 19:24 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:24 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:25 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:25  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 19:25 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:25 TRACE -> ?:? - Looking for user with login: fff
+09-05-2018 19:25 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 19:25 ERROR -> authorization.LoginCommand:40 - Error while extracting user: fff
+09-05-2018 19:25 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:25 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:32 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:32 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:32 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 19:32 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 19:32 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 19:32 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:32 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:38 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:38 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:38 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:38  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 19:38 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:38 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 19:38 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Name [courseWork] is not bound in this Context. Unable to find [courseWork].
+09-05-2018 19:38 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 19:38 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:38 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:39 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:39 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:39 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 19:39 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Name [courseWork] is not bound in this Context. Unable to find [courseWork].
+09-05-2018 19:39 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 19:39 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:39 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:40 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:40 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:48 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:48  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 19:48 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:48 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 19:48 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 19:48 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 19:48 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:48 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:49 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:49 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:49 TRACE -> ?:? - Looking for user with login: marin
+09-05-2018 19:49 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 19:49 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marin
+09-05-2018 19:49 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:49 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:50 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:50 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:52 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 19:52  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 19:52 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 19:52 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 19:52 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Name [courseWork] is not bound in this Context. Unable to find [courseWork].
+09-05-2018 19:52 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 19:52 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:52 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:53 DEBUG -> controller.Controller:32 - Looking for command name: registration
+09-05-2018 19:53 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+09-05-2018 19:53 TRACE -> ?:? - Created user with name: qqqq and login qqqq
+09-05-2018 19:53 ERROR -> db.UserDAO:44 - Exception in create(user) : Name [courseWork] is not bound in this Context. Unable to find [courseWork].
+09-05-2018 19:53  WARN -> authorization.RegistrCommand:44 - Error while adding user: qqqq
+09-05-2018 19:53 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:53 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 19:57 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:57 TRACE -> ?:? - EncodingFilter init
+09-05-2018 19:58 DEBUG -> controller.Controller:32 - Looking for command name: registration
+09-05-2018 19:58  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 19:58 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+09-05-2018 19:58 TRACE -> ?:? - Created user with name: qqqq and login qqqq
+09-05-2018 19:58 ERROR -> db.UserDAO:44 - Exception in create(user) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 19:58  WARN -> authorization.RegistrCommand:44 - Error while adding user: qqqq
+09-05-2018 19:58 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 19:58 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 20:09 TRACE -> ?:? - EncodingFilter init
+09-05-2018 20:09 TRACE -> ?:? - EncodingFilter init
+09-05-2018 20:11 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 20:11  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 20:11 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 20:11 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 20:11 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 20:11 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 20:11 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 20:11 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+
+09-05-2018 20:15 TRACE -> ?:? - EncodingFilter init
+09-05-2018 20:15 TRACE -> ?:? - EncodingFilter init
+09-05-2018 20:15 DEBUG -> controller.Controller:32 - Looking for command name: login
+09-05-2018 20:15  INFO -> command.CommandContainer:53 - CommandContainer was filled
+09-05-2018 20:15 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+09-05-2018 20:15 TRACE -> ?:? - Looking for user with login: marina
+09-05-2018 20:15 ERROR -> db.UserDAO:94 - Exception in findEntityByLogin(login) : Cannot create JDBC driver of class '' for connect URL 'null'
+09-05-2018 20:15 ERROR -> authorization.LoginCommand:40 - Error while extracting user: marina
+09-05-2018 20:15 DEBUG -> controller.Controller:38 - Path to go: errors/error.jsp
+09-05-2018 20:15 TRACE -> ?:? - Send redirect to address: errors/error.jsp
+

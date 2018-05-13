@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context antiJARLocking="true">
+
+	<Resource 
+		name="jdbc/courseWork" 
+		author="Container"
+		type="javax.sql.DataSource"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000"
+		username="root"
+		password="root"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/courseWork" />
+		
+	<Resource
+		name="mail/courseWork" 
+		auth="Container"
+		type="javax.mail.Session"
+		mail.transport.protocol="smtp"
+		mail.smtp.host="smtp.gmail.com"
+		mail.smtp.ssl.trust = "smtp.gmail.com"
+		mail.smtp.auth="true"
+		mail.smtp.port="587"
+		mail.smtp.from="airlines.mailpost@gmail.com"
+		mail.smtp.password="gfnhbr0101"
+		mail.smtp.starttls.enable="true"
+		mail.mime.charset="UTF-8"
+		mail.smtp.socketFactory.class="javax.net.ssl.SSLSocketFactory" />
+		
+</Context>
