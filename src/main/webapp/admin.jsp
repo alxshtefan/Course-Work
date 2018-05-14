@@ -95,8 +95,6 @@
 		  <c:if test="${errorBlock != null }">
 		  	<img class="attention_symbol_tab" alt="attention" src="images/attention.png" style=" left: 42.9% ">
 		  </c:if>
-		  
-		  <button class="tablinks" onclick="openContent(event, 'Таблицы с данными')">Таблицы с данными</button>
 		</div>
 		<!-- ============================================================================ -->
 		
@@ -173,26 +171,6 @@
 					<input type="hidden"name="command" value="unLockUser" /> 
 					<p>Введите логин пользователя: <input type="text" name="login"  maxlength="20" placeholder="логин" pattern="[A-Za-z0-9 ]+" autocomplete="off" required></p>
 					<input type="submit" value="Разблокировать пользователя">
-				</form>
-				<div class="errorText">
-					<c:if test="${errorBlock != null}">
-						${errorBlock }
-					</c:if>
-				</div>
-			</div>
-		</center>
-		<!-- ============================================================================ -->
-		
-		<!-- ================================= PAGE 5 =================================== -->
-		<center>
-			<div id="Таблицы с данными" class="tabcontent">
-				<form method="POST">
-					<input type="hidden"name="command" value="tableUsers" /> 
-					<input type="submit" onclick="openWin('Users')" value="Открыть таблицу с пользователями">
-				</form>
-				<form method="POST">
-					<input type="hidden" name="command" value="tableTests" /> 
-					<input type="submit" onclick="openWin('Tests')" value="Открыть таблицу с тестами">
 				</form>
 				<div class="errorText">
 					<c:if test="${errorBlock != null}">

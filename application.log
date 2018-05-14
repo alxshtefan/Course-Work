@@ -2888,3 +2888,922 @@ The Mediterranean diet has long been _____ for its health benefits and many rese
 13-05-2018 21:18 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
 13-05-2018 21:18 TRACE -> ?:? - Forward to address: welcome.jsp
 
+13-05-2018 21:58 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 21:58 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 21:58 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 21:58 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 21:58 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 21:58 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 21:58 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 21:58 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 21:58 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+13-05-2018 21:58 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+13-05-2018 21:58 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+13-05-2018 21:58 TRACE -> ?:? - Forward to address: account.jsp
+
+13-05-2018 21:58 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 21:58 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 21:58 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 21:58 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 21:58 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 21:58 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 21:58 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 21:58 TRACE -> ?:? - Will look for tests with subject: null
+13-05-2018 21:58 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 21:58 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 21:59 TRACE -> ?:? - There is test with id: 4
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+13-05-2018 21:59 TRACE -> ?:? - Forward to address: test.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 21:59  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 21:59  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 21:59 TRACE -> ?:? - Forward to address: welcome.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 21:59 TRACE -> ?:? - Looking for user with login: alxshtefan
+13-05-2018 21:59 TRACE -> ?:? - User: alxshtefan was extracted
+13-05-2018 21:59 TRACE -> ?:? - User: alxshtefan is valid
+13-05-2018 21:59 TRACE -> ?:? - User: alxshtefan was added to session
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+13-05-2018 21:59 TRACE -> ?:? - Send redirect to address: index.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+13-05-2018 21:59 TRACE -> ?:? - Will look for tests with subject: Английский
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+13-05-2018 21:59 TRACE -> ?:? - Forward to address: tests.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+13-05-2018 21:59 TRACE -> ?:? - There is test with id: 1
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+13-05-2018 21:59 TRACE -> ?:? - Forward to address: test.jsp
+
+13-05-2018 21:59 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+13-05-2018 21:59 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+13-05-2018 21:59 TRACE -> ?:? - Test structure was extracted
+13-05-2018 21:59 TRACE -> ?:? - Test was fully extracted
+13-05-2018 21:59  INFO -> tests.EndTestCommand:50 - Starting getting answers
+13-05-2018 21:59  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+13-05-2018 21:59  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+13-05-2018 21:59  INFO -> tests.EndTestCommand:66 - User scored: 0
+13-05-2018 21:59  INFO -> tests.EndTestCommand:71 - Score was added
+13-05-2018 21:59 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+13-05-2018 21:59 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+13-05-2018 22:00 DEBUG -> controller.Controller:32 - Looking for command name: logout
+13-05-2018 22:00 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+13-05-2018 22:00  INFO -> authorization.LogoutCommand:18 - Logout starting
+13-05-2018 22:00  INFO -> authorization.LogoutCommand:25 - Session was freed
+13-05-2018 22:00 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+13-05-2018 22:00 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+13-05-2018 22:00 DEBUG -> controller.Controller:32 - Looking for command name: login
+13-05-2018 22:00 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+13-05-2018 22:00 TRACE -> ?:? - Looking for user with login: admin
+13-05-2018 22:00 TRACE -> ?:? - User: admin was extracted
+13-05-2018 22:00 TRACE -> ?:? - User: admin is valid
+13-05-2018 22:00 TRACE -> ?:? - User: admin was added to session
+13-05-2018 22:00 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+13-05-2018 22:00 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+13-05-2018 23:11 TRACE -> ?:? - EncodingFilter init
+13-05-2018 23:11 TRACE -> ?:? - EncodingFilter init
+13-05-2018 23:29 TRACE -> ?:? - EncodingFilter init
+13-05-2018 23:29 TRACE -> ?:? - EncodingFilter init
+14-05-2018 00:32 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:32  INFO -> command.CommandContainer:53 - CommandContainer was filled
+14-05-2018 00:32 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:32 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:32 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:32 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:32 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:32 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:32 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:32 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:32 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:32  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:32  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:32 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:32 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 00:34 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:34 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:34 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:34 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:34 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:34 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:34 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:34 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:34 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 00:34 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 00:34 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 00:34 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 00:34 DEBUG -> controller.Controller:32 - Looking for command name: openUsers
+14-05-2018 00:34 DEBUG -> controller.Controller:35 - Found command: GetUsersTableCommand
+14-05-2018 00:34 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 00:34 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 00:34 DEBUG -> controller.Controller:32 - Looking for command name: openUsers
+14-05-2018 00:34 DEBUG -> controller.Controller:35 - Found command: GetUsersTableCommand
+14-05-2018 00:34 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 00:34 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 00:36 DEBUG -> controller.Controller:32 - Looking for command name: registration
+14-05-2018 00:36 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+14-05-2018 00:36 TRACE -> ?:? - Created user with name: Иван and login ivan
+14-05-2018 00:36 TRACE -> ?:? - User ivan was added
+14-05-2018 00:36 TRACE -> ?:? - User with name: Иван and login ivan was added
+14-05-2018 00:36 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:36 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 00:36  INFO -> mail.Message:60 - Starting sending message
+14-05-2018 00:36  INFO -> mail.Message:83 - Message sending finished successfully
+14-05-2018 00:36 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:36 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:36 TRACE -> ?:? - Looking for user with login: ivan
+14-05-2018 00:36 TRACE -> ?:? - User: ivan was extracted
+14-05-2018 00:36 TRACE -> ?:? - User: ivan is valid
+14-05-2018 00:36 TRACE -> ?:? - User: ivan was added to session
+14-05-2018 00:36 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 00:36 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 00:37 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 00:37 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 00:37 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 00:37 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 00:37 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:37 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:37 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 00:37 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:37 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:37 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:37 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:37 TRACE -> ?:? - Will look for tests with subject: null
+14-05-2018 00:37 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:37 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:37 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:37 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:37 TRACE -> ?:? - Will look for tests with subject: Английский
+14-05-2018 00:37 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:37 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:37 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 00:37 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 00:37 TRACE -> ?:? - There is test with id: 2
+14-05-2018 00:37 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 00:37 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 00:38 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 00:38 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 00:38 TRACE -> ?:? - Test structure was extracted
+14-05-2018 00:38 TRACE -> ?:? - Test was fully extracted
+14-05-2018 00:38  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 00:38  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 00:38  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 00:38  INFO -> tests.EndTestCommand:66 - User scored: 10
+14-05-2018 00:38  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 00:38 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 00:38 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 00:40 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 00:40 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 00:40  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 00:40 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 00:40  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 00:40 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 00:40  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 00:40 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 00:40 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 00:40 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 00:40 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 00:40 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 00:40  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 00:40  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 00:40  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 00:41 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:41 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:41  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:41  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:41 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:41 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 00:41 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:41 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:41 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:41 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:41 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:41 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:41 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:41 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:41 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+14-05-2018 00:41 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+14-05-2018 00:41  INFO -> admin.AddTestCommand:27 - Structure of test was extracted
+14-05-2018 00:41 DEBUG -> controller.Controller:38 - Path to go: admin/fill-test.jsp
+14-05-2018 00:41 TRACE -> ?:? - Send redirect to address: admin/fill-test.jsp
+
+14-05-2018 00:41 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+14-05-2018 00:41 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+14-05-2018 00:41  INFO -> admin.AddTestCommand:58 - Test was extracted from request
+14-05-2018 00:41  INFO -> db.TestDAO:130 - ID number was added to test
+14-05-2018 00:41 TRACE -> ?:? - Test MyTest was added
+14-05-2018 00:41  INFO -> db.QuestionDAO:43 - All id numbers were added to all questions
+14-05-2018 00:41 TRACE -> ?:? - All questions were added
+14-05-2018 00:41  INFO -> db.AnswerDAO:43 - All id numbers were added to all answers
+14-05-2018 00:41  INFO -> admin.AddTestCommand:63 - All values of the test were added to the table
+14-05-2018 00:41  INFO -> admin.AddTestCommand:64 - All relations of the test were added to the table
+14-05-2018 00:41 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:41 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:42 TRACE -> ?:? - Looking for user with login: ivan
+14-05-2018 00:42 TRACE -> ?:? - User: ivan was extracted
+14-05-2018 00:42 TRACE -> ?:? - User: ivan is valid
+14-05-2018 00:42 TRACE -> ?:? - User: ivan was added to session
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:42 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:42 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 00:42 TRACE -> ?:? - There is test with id: 5
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 00:42 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 00:42 TRACE -> ?:? - Test structure was extracted
+14-05-2018 00:42 TRACE -> ?:? - Test was fully extracted
+14-05-2018 00:42  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 00:42  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 00:42  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 00:42  INFO -> tests.EndTestCommand:66 - User scored: 100
+14-05-2018 00:42  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 00:42 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: updateTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: UpdateTestCommand
+14-05-2018 00:42 TRACE -> ?:? - There is test with title: MyTest
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: admin/update-test.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: admin/update-test.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: updateTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: UpdateTestCommand
+14-05-2018 00:42  INFO -> admin.UpdateTestCommand:42 - MyTest2 + 2 = ...
+	1 false
+	2 false
+	3 false
+	4 true
+
+
+
+14-05-2018 00:42  INFO -> admin.UpdateTestCommand:43 - Test was extracted from request
+14-05-2018 00:42 DEBUG -> db.TestDAO:171 - Test was deleted
+14-05-2018 00:42 DEBUG -> db.QuestionDAO:105 - Question was deleted
+14-05-2018 00:42 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:42 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:42 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:42 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:42  INFO -> admin.UpdateTestCommand:48 - Test was delete successfully
+14-05-2018 00:42 TRACE -> ?:? - Test MyTest was added
+14-05-2018 00:42  INFO -> db.QuestionDAO:43 - All id numbers were added to all questions
+14-05-2018 00:42 TRACE -> ?:? - All questions were added
+14-05-2018 00:42  INFO -> db.AnswerDAO:43 - All id numbers were added to all answers
+14-05-2018 00:42  INFO -> admin.UpdateTestCommand:56 - All values of the test were added to the table
+14-05-2018 00:42  INFO -> admin.UpdateTestCommand:57 - All relations of the test were added to the table
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:42 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:42 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 00:42 TRACE -> ?:? - There is test with id: 5
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 00:42 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 00:42 TRACE -> ?:? - Test structure was extracted
+14-05-2018 00:42 TRACE -> ?:? - Test was fully extracted
+14-05-2018 00:42  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 00:42  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 00:42  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 00:42  INFO -> tests.EndTestCommand:66 - User scored: 0
+14-05-2018 00:42  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 00:42 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:42 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:42  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:42 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:42 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:42 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:43 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:43 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:43  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:43 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:43 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:43 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:43 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:43 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:43 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 00:43 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:43 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:43 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:43 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:43  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:43 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:43 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:43 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:44 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:44 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:44  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:44 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:44 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:44 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:45 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:45 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:45  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:45 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:45 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:45 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:46 DEBUG -> controller.Controller:32 - Looking for command name: blockUser
+14-05-2018 00:46 DEBUG -> controller.Controller:35 - Found command: BlockUserCommand
+14-05-2018 00:46 TRACE -> ?:? - User: ivan was extracted
+14-05-2018 00:46  INFO -> admin.BlockUserCommand:50 - User ivan was blocked
+14-05-2018 00:46 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:46 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:46 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 00:46 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 00:46 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 00:46 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 00:46 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 00:46 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:46 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:46  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:46  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:46 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:46 TRACE -> ?:? - Forward to address: welcome.jsp
+
+14-05-2018 00:46 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:46 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:46 TRACE -> ?:? - Looking for user with login: ivan
+14-05-2018 00:46 TRACE -> ?:? - User: ivan was extracted
+14-05-2018 00:46  WARN -> authorization.LoginCommand:51 - User: ivan is invalid
+14-05-2018 00:46 DEBUG -> controller.Controller:38 - Path to go: 
+14-05-2018 00:46 TRACE -> ?:? - Send redirect to address: 
+
+14-05-2018 00:54 TRACE -> ?:? - EncodingFilter init
+14-05-2018 00:54 TRACE -> ?:? - EncodingFilter init
+14-05-2018 00:54 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:54  INFO -> command.CommandContainer:53 - CommandContainer was filled
+14-05-2018 00:54 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:54 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:54 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:54 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:54 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:54 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:54 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:54 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:54 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:54  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:54 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:54 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:54 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:55 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:55 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:55  INFO -> admin.DeleteTestCommand:27 - Structure of test was extracted
+14-05-2018 00:55 ERROR -> admin.DeleteTestCommand:40 - Error while extracting test: null
+14-05-2018 00:55 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:55 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:55 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:55 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:55  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:55  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:55 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:55 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 00:55 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:55 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:55 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:55 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:55 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:55 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:55 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:55 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:56 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:56 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:56  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:56  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:56 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:56 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 00:58 TRACE -> ?:? - EncodingFilter init
+14-05-2018 00:58 TRACE -> ?:? - EncodingFilter init
+14-05-2018 00:59 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 00:59  INFO -> command.CommandContainer:53 - CommandContainer was filled
+14-05-2018 00:59 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 00:59 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 00:59 TRACE -> ?:? - User: admin was extracted
+14-05-2018 00:59 TRACE -> ?:? - User: admin is valid
+14-05-2018 00:59 TRACE -> ?:? - User: admin was added to session
+14-05-2018 00:59 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:59 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:59 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:59 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:59 TRACE -> ?:? - There is test with title: MyTest
+14-05-2018 00:59 DEBUG -> db.TestDAO:171 - Test was deleted
+14-05-2018 00:59 DEBUG -> db.QuestionDAO:105 - Question was deleted
+14-05-2018 00:59 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:59 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:59 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:59 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 00:59 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:59 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:59 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 00:59 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 00:59 TRACE -> ?:? - There is no test with title: asasdasd
+14-05-2018 00:59 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 00:59 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 00:59 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 00:59 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 00:59 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 00:59 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 00:59 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 00:59 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 00:59  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 00:59  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 00:59 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 00:59 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:25 TRACE -> ?:? - EncodingFilter init
+14-05-2018 13:25 TRACE -> ?:? - EncodingFilter init
+14-05-2018 13:26 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:26  INFO -> command.CommandContainer:53 - CommandContainer was filled
+14-05-2018 13:26 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:26 TRACE -> ?:? - Looking for user with login: sdjhfksjdf
+14-05-2018 13:26  WARN -> authorization.LoginCommand:47 - User: null is invalid
+14-05-2018 13:26 DEBUG -> controller.Controller:38 - Path to go: 
+14-05-2018 13:26 TRACE -> ?:? - Send redirect to address: 
+
+14-05-2018 13:29 DEBUG -> controller.Controller:32 - Looking for command name: registration
+14-05-2018 13:29 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+14-05-2018 13:29 TRACE -> ?:? - Created user with name: Александр and login aleksandr
+14-05-2018 13:29 TRACE -> ?:? - User aleksandr was added
+14-05-2018 13:29 TRACE -> ?:? - User with name: Александр and login aleksandr was added
+14-05-2018 13:29 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:29 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:29  INFO -> mail.Message:60 - Starting sending message
+14-05-2018 13:29 ERROR -> mail.Message:74 - Exception occurred while sending message Could not convert socket to TLS
+14-05-2018 13:29  INFO -> mail.Message:75 - Message sending finished unsuccessfully
+14-05-2018 13:30 DEBUG -> controller.Controller:32 - Looking for command name: registration
+14-05-2018 13:30 DEBUG -> controller.Controller:35 - Found command: RegistrCommand
+14-05-2018 13:30 TRACE -> ?:? - Created user with name: qqqqqqqqqqqqq and login qqqqqqqqqqqq
+14-05-2018 13:30 TRACE -> ?:? - User qqqqqqqqqqqq was added
+14-05-2018 13:30 TRACE -> ?:? - User with name: qqqqqqqqqqqqq and login qqqqqqqqqqqq was added
+14-05-2018 13:30 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:30 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:30  INFO -> mail.Message:60 - Starting sending message
+14-05-2018 13:30  INFO -> mail.Message:83 - Message sending finished successfully
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:31 TRACE -> ?:? - Looking for user with login: aleksandr
+14-05-2018 13:31 TRACE -> ?:? - User: aleksandr was extracted
+14-05-2018 13:31 TRACE -> ?:? - User: aleksandr is valid
+14-05-2018 13:31 TRACE -> ?:? - User: aleksandr was added to session
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:31 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: null
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: Английский
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: Немецкий
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: Французкий
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:31 TRACE -> ?:? - Will look for tests with subject: Английский
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:31 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 13:31 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 13:31 TRACE -> ?:? - There is test with id: 2
+14-05-2018 13:31 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 13:31 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 13:32 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 13:32 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 13:32 TRACE -> ?:? - Test structure was extracted
+14-05-2018 13:32 TRACE -> ?:? - Test was fully extracted
+14-05-2018 13:32  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 13:32  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 13:32  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 13:32  INFO -> tests.EndTestCommand:66 - User scored: 10
+14-05-2018 13:32  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 13:32 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 13:32 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 13:32 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 13:32 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 13:32 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 13:32 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:33 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:33  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 13:33 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:33 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:33  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 13:33  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 13:33 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: getUsersStatistics
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: StatisticsCommand
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:33 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:33  INFO -> mail.Message:98 - Starting sending message with statistics
+14-05-2018 13:33  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 13:33  INFO -> mail.Message:125 - Message with statistics sending finished successfully
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 13:33  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 13:33  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:33 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:33 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:33 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:33 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 13:33 TRACE -> ?:? - User: admin was extracted
+14-05-2018 13:33 TRACE -> ?:? - User: admin is valid
+14-05-2018 13:33 TRACE -> ?:? - User: admin was added to session
+14-05-2018 13:33 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:33 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:34 DEBUG -> controller.Controller:32 - Looking for command name: openUsers
+14-05-2018 13:34 DEBUG -> controller.Controller:35 - Found command: GetUsersTableCommand
+14-05-2018 13:34 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 13:34 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 13:34 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 13:34 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 13:34 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 13:34 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 13:34 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+14-05-2018 13:34 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+14-05-2018 13:34  INFO -> admin.AddTestCommand:27 - Structure of test was extracted
+14-05-2018 13:34 DEBUG -> controller.Controller:38 - Path to go: admin/fill-test.jsp
+14-05-2018 13:34 TRACE -> ?:? - Send redirect to address: admin/fill-test.jsp
+
+14-05-2018 13:34 DEBUG -> controller.Controller:32 - Looking for command name: addTest
+14-05-2018 13:34 DEBUG -> controller.Controller:35 - Found command: AddTestCommand
+14-05-2018 13:34  INFO -> admin.AddTestCommand:58 - Test was extracted from request
+14-05-2018 13:34  INFO -> db.TestDAO:130 - ID number was added to test
+14-05-2018 13:34 TRACE -> ?:? - Test MyTest was added
+14-05-2018 13:34  INFO -> db.QuestionDAO:43 - All id numbers were added to all questions
+14-05-2018 13:34 TRACE -> ?:? - All questions were added
+14-05-2018 13:34  INFO -> db.AnswerDAO:43 - All id numbers were added to all answers
+14-05-2018 13:34  INFO -> admin.AddTestCommand:63 - All values of the test were added to the table
+14-05-2018 13:34  INFO -> admin.AddTestCommand:64 - All relations of the test were added to the table
+14-05-2018 13:34 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:34 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:35 TRACE -> ?:? - Looking for user with login: aleksandr
+14-05-2018 13:35 TRACE -> ?:? - User: aleksandr was extracted
+14-05-2018 13:35 TRACE -> ?:? - User: aleksandr is valid
+14-05-2018 13:35 TRACE -> ?:? - User: aleksandr was added to session
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:35 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:35 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:35 TRACE -> ?:? - Will look for tests with subject: null
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 13:35 TRACE -> ?:? - There is test with id: 5
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 13:35 TRACE -> ?:? - Test structure was extracted
+14-05-2018 13:35 TRACE -> ?:? - Test was fully extracted
+14-05-2018 13:35  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 13:35  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 13:35  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 13:35  INFO -> tests.EndTestCommand:66 - User scored: 100
+14-05-2018 13:35  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 13:35 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: openUsers
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: GetUsersTableCommand
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 13:35 DEBUG -> controller.Controller:32 - Looking for command name: openTests
+14-05-2018 13:35 DEBUG -> controller.Controller:35 - Found command: GetTestsTableCommand
+14-05-2018 13:35 DEBUG -> controller.Controller:38 - Path to go: info-table.jsp
+14-05-2018 13:35 TRACE -> ?:? - Forward to address: info-table.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: updateTest
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: UpdateTestCommand
+14-05-2018 13:36 TRACE -> ?:? - There is test with title: MyTest
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: admin/update-test.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: admin/update-test.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: updateTest
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: UpdateTestCommand
+14-05-2018 13:36  INFO -> admin.UpdateTestCommand:42 - MyTest2+2 = ...
+	1 false
+	2 false
+	3 false
+	4 true
+
+
+
+14-05-2018 13:36  INFO -> admin.UpdateTestCommand:43 - Test was extracted from request
+14-05-2018 13:36 DEBUG -> db.TestDAO:171 - Test was deleted
+14-05-2018 13:36 DEBUG -> db.QuestionDAO:105 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36  INFO -> admin.UpdateTestCommand:48 - Test was delete successfully
+14-05-2018 13:36 TRACE -> ?:? - Test MyTest was added
+14-05-2018 13:36  INFO -> db.QuestionDAO:43 - All id numbers were added to all questions
+14-05-2018 13:36 TRACE -> ?:? - All questions were added
+14-05-2018 13:36  INFO -> db.AnswerDAO:43 - All id numbers were added to all answers
+14-05-2018 13:36  INFO -> admin.UpdateTestCommand:56 - All values of the test were added to the table
+14-05-2018 13:36  INFO -> admin.UpdateTestCommand:57 - All relations of the test were added to the table
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:36 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:36 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: startTest
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: StartTestCommand
+14-05-2018 13:36 TRACE -> ?:? - There is test with id: 5
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: test.jsp
+14-05-2018 13:36 TRACE -> ?:? - Forward to address: test.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: endTest
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: EndTestCommand
+14-05-2018 13:36 TRACE -> ?:? - Test structure was extracted
+14-05-2018 13:36 TRACE -> ?:? - Test was fully extracted
+14-05-2018 13:36  INFO -> tests.EndTestCommand:50 - Starting getting answers
+14-05-2018 13:36  INFO -> tests.EndTestCommand:55 - Finishing getting answers
+14-05-2018 13:36  INFO -> tests.EndTestCommand:62 - Test was extracted from request
+14-05-2018 13:36  INFO -> tests.EndTestCommand:66 - User scored: 100
+14-05-2018 13:36  INFO -> tests.EndTestCommand:71 - Score was added
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: end-test.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: end-test.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: deleteTest
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: DeleteTestCommand
+14-05-2018 13:36 TRACE -> ?:? - There is test with title: MyTest
+14-05-2018 13:36 DEBUG -> db.TestDAO:171 - Test was deleted
+14-05-2018 13:36 DEBUG -> db.QuestionDAO:105 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> db.AnswerDAO:104 - Question was deleted
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: openTestsPage
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: OpenTestsPageCommand
+14-05-2018 13:36 TRACE -> ?:? - Will look for tests with subject: Испанский
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: tests.jsp
+14-05-2018 13:36 TRACE -> ?:? - Forward to address: tests.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: openAccountPage
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: OpenAccountCommand
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: account.jsp
+14-05-2018 13:36 TRACE -> ?:? - Forward to address: account.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 13:36  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 13:36  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:36 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 13:36 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 13:36  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 13:36  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 13:36 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:36 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:42 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:42 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:42 TRACE -> ?:? - Looking for user with login: admin
+14-05-2018 13:42 TRACE -> ?:? - User: admin was extracted
+14-05-2018 13:42 TRACE -> ?:? - User: admin is valid
+14-05-2018 13:42 TRACE -> ?:? - User: admin was added to session
+14-05-2018 13:42 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:42 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:42 DEBUG -> controller.Controller:32 - Looking for command name: blockUser
+14-05-2018 13:42 DEBUG -> controller.Controller:35 - Found command: BlockUserCommand
+14-05-2018 13:42 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:42  INFO -> admin.BlockUserCommand:50 - User alxshtefan was blocked
+14-05-2018 13:42 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:42 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:42 DEBUG -> controller.Controller:32 - Looking for command name: blockUser
+14-05-2018 13:42 DEBUG -> controller.Controller:35 - Found command: BlockUserCommand
+14-05-2018 13:42 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:42  WARN -> admin.BlockUserCommand:42 - User with login: alxshtefan is already blocked!
+14-05-2018 13:42 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:42 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: unLockUser
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: UnlockUserCommand
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:43  INFO -> admin.UnlockUserCommand:50 - User alxshtefan was unlocked
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: admin.jsp
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: admin.jsp
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 13:43  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 13:43  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: welcome.jsp
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:43 TRACE -> ?:? - Looking for user with login: alxshtefan
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: alxshtefan is invalid
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:43 TRACE -> ?:? - Looking for user with login: alxshtefan
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: alxshtefan is invalid
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:43 TRACE -> ?:? - Looking for user with login: alxshtefan
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:43  WARN -> authorization.LoginCommand:56 - User: alxshtefan is invalid
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: 
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: 
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: login
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LoginCommand
+14-05-2018 13:43 TRACE -> ?:? - Looking for user with login: alxshtefan
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was extracted
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan is valid
+14-05-2018 13:43 TRACE -> ?:? - User: alxshtefan was added to session
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: index.jsp
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: index.jsp
+
+14-05-2018 13:43 DEBUG -> controller.Controller:32 - Looking for command name: logout
+14-05-2018 13:43 DEBUG -> controller.Controller:35 - Found command: LogoutCommand
+14-05-2018 13:43  INFO -> authorization.LogoutCommand:18 - Logout starting
+14-05-2018 13:43  INFO -> authorization.LogoutCommand:25 - Session was freed
+14-05-2018 13:43 DEBUG -> controller.Controller:38 - Path to go: welcome.jsp
+14-05-2018 13:43 TRACE -> ?:? - Send redirect to address: welcome.jsp
+

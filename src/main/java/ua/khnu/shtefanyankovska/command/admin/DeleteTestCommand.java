@@ -3,6 +3,7 @@ package ua.khnu.shtefanyankovska.command.admin;
 import org.apache.log4j.Logger;
 import ua.khnu.shtefanyankovska.command.Command;
 import ua.khnu.shtefanyankovska.db.LogicDAO;
+import ua.khnu.shtefanyankovska.db.TestDAO;
 import ua.khnu.shtefanyankovska.entity.Question;
 import ua.khnu.shtefanyankovska.entity.Test;
 import ua.khnu.shtefanyankovska.util.HelperToWorkingWithTest;
@@ -22,59 +23,46 @@ public class DeleteTestCommand extends Command {
     public String execute(HttpServletRequest request, HttpServletResponse response, String type) {
         HttpSession session = request.getSession(false);
         session.removeAttribute("done");
-        try {
-            if (session.getAttribute("test") == null) {
-                LOG.info("Structure of test was extracted");
-                Test test = new Test();
-                test.setId(0);
-                test.setTitle(request.getParameter("title"));
-                test.setSubject(request.getParameter("subject"));
-                test.setDifficult(Integer.parseInt(request.getParameter("difficult")));
-                test.setTime(Integer.parseInt(request.getParameter("time")));
-                test.setqNumber(Integer.parseInt(request.getParameter("numOfQuest")));
-                session.setAttribute("test", test);
-                return PathToGo.ADMIN_PAGE_FILL_TEST;
-            }
-        } catch (Exception e) {
-            session.removeAttribute("test");
-            LOG.error("Error while extracting test: " + e.getMessage());
-            session.setAttribute("errorCreate",
-                    "Произошла ошибка во время обработки данных!<br>Введите данные заново!");
-            return PathToGo.ADMIN_MAIN_PAGE;
-        }
+        String title = request.getParameter("title");
 
-        Test test = (Test) session.getAttribute("test");
+        TestDAO testDAO = new TestDAO();
+        Test test = new Test();
         try {
-            List<Question> questions = HelperToWorkingWithTest.questionsForTest(request, test.getqNumber());
-            test.setQuestions(questions);
-        } catch (Exception e) {
-            session.removeAttribute("test");
-            LOG.error("Error while building test: " + e.getMessage());
-            session.setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
-            return PathToGo.ERROR_PAGE;
-        }
-
-        LOG.info("Test was extracted from request");
-
-        try {
-            LogicDAO logicDAO = new LogicDAO();
-            if (logicDAO.addTest(test)) {
-                LOG.info("All values of the test were added to the table");
-                LOG.info("All relations of the test were added to the table");
+            List<Test> tests = testDAO.findAll();
+            test.setTitle(title);
+            if (tests.contains(test)) {
+                LOG.trace("There is test with title: " + title);
+                session.removeAttribute("errorDelete");
+                for (Test t : tests) {
+                    if (t.equals(test)) {
+                        test = t;
+                        break;
+                    }
+                }
+            } else {
+                LOG.trace("There is no test with title: " + title);
+                session.setAttribute("errorDelete", "В базе нет теста с названием: " + title);
+                return PathToGo.ADMIN_MAIN_PAGE;
             }
         } catch (MyException e) {
-            session.removeAttribute("test");
-            LOG.error("Error while adding test: " + e.getMessage());
+            LOG.error("Error while deleting test: " + e.getMessage());
             session.setAttribute("error",
-                    "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
+              "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
             return PathToGo.ERROR_PAGE;
         }
 
-        session.removeAttribute("errorCreate");
-        session.removeAttribute("test");
-        session.setAttribute("done", true);
-        return PathToGo.ADMIN_MAIN_PAGE;
+        LogicDAO logicDAO = new LogicDAO();
+        try {
+            test = logicDAO.getTest(test);
+            logicDAO.deleteTest(test);
+            session.setAttribute("done", true);
+            return PathToGo.ADMIN_MAIN_PAGE;
+        } catch (MyException e) {
+            LOG.error("Error while deleting test: " + e.getMessage());
+            session.setAttribute("error",
+              "Произошла ошибка во время обработки данных!<br>Проверьте правильность введенных данных!");
+            return PathToGo.ERROR_PAGE;
+        }
     }
 
 }
